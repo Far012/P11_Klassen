@@ -10,6 +10,7 @@ class CardAppointment {
   String detailsUrl;
   bool isDone;
 
+  // Konstruktor
   CardAppointment(this.title, this.description, this.schoolClass, this.date, this.startTime, this.endTime, this.location, this.detailsUrl, this.isDone);
 }
 
